@@ -30,12 +30,6 @@
 
 ---
 
-### Courses:
-
-- html academy trainers
-
----
-
 ### Languages:
 
 - Russian(native)
