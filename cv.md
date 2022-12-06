@@ -26,6 +26,13 @@
 
 - HTML
 - CSS
+- JS
+
+---
+
+### Courses:
+
+- html academy trainers
 
 ---
 
