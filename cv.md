@@ -14,7 +14,6 @@ I have commercial experience in TypeScript and React development. Acquired skill
 - **Programming Languages:** JS, TS, HTML/CSS
 - **Frameworks:** React
 - **Version Control:** Git, GitHub
-  Docker
 - **Methodologies:** Scrum
 - **Other Tools:** Postman, postgresSQL
 
