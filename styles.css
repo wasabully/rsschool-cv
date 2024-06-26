@@ -3,8 +3,6 @@ html {
 	margin: 0;
 	padding: 0;
 	font-family: 'Lora', serif;
-	background-color: #f8f9fa;
-	color: #333;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -20,7 +18,6 @@ html {
 	background: url('/shelter/images/background.jpg') no-repeat center center
 		fixed;
 	background-size: cover;
-	color: #ffffff;
 }
 
 .main-header {
@@ -41,6 +38,7 @@ html {
 	margin: 0;
 	font-size: 24px;
 	font-weight: bold;
+	color: #f1cdb3;
 }
 
 .tagline {
@@ -200,26 +198,6 @@ html {
 .friend-card button:hover {
 	background-color: rgba(241, 205, 179, 0.2);
 }
-.arrow-btn {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	cursor: pointer;
-}
-
-.left-arrow {
-	left: -30px; /* или другое значение для позиционирования */
-}
-
-.right-arrow {
-	right: -30px; /* или другое значение для позиционирования */
-}
-
-.arrow-btn img {
-	width: 40px; /* Указать размеры иконки */
-	height: 40px;
-}
-
 .rest-btn {
 	font-family: Georgia;
 	font-style: normal;
