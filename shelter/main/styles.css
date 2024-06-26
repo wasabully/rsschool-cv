@@ -1,5 +1,5 @@
-body,
-html {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Lora', serif;
@@ -9,6 +9,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
+	height: 100%;
 }
 
 .main {
@@ -17,10 +18,12 @@ html {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: url('/shelter/images/background.jpg') no-repeat center center
+	background: url('/shelter/main/images/background.jpg') no-repeat center center
 		fixed;
 	background-size: cover;
 	color: #ffffff;
+	box-sizing: border-box;
+	padding: 0 20px;
 }
 
 .main-header {
@@ -119,7 +122,7 @@ html {
 }
 
 .additional-section {
-	width: 1200px;
+	width: 1280px;
 	margin: 20px auto;
 }
 
@@ -148,7 +151,7 @@ html {
 }
 
 .friends-section {
-	width: 1200px;
+	width: 1280px;
 	margin: 40px auto;
 	text-align: center;
 }
@@ -209,22 +212,6 @@ html {
 	transform: translateY(-50%);
 }
 
-.left-arrow {
-	left: -30px;
-	background-image: url('/shelter/images/button_arrow.png');
-	width: 40px;
-	height: 40px;
-	background-size: cover;
-}
-
-.right-arrow {
-	right: -30px;
-	background-image: url('/shelter/images/right-arrow.png');
-	width: 40px;
-	height: 40px;
-	background-size: cover;
-}
-
 .rest-btn {
 	font-family: Georgia;
 	font-style: normal;
@@ -244,12 +231,13 @@ html {
 }
 
 .help-section {
-	width: 1200px;
+	width: 1280px;
 	margin: 40px auto;
 	text-align: center;
 }
 
 .help-container {
+	width: 1280px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -271,7 +259,7 @@ html {
 	font-size: 14px;
 }
 .before {
-	width: 1200px;
+	width: 1280px;
 	background-color: rgb(237, 232, 232);
 }
 .before-section {
@@ -303,12 +291,11 @@ html {
 }
 
 .footer-container {
-	background-image: url('/shelter/images/footer-background.png');
+	background-image: url('/shelter/main/images/footer-background.png');
 	overflow: hidden;
 }
 
 .footer-inner {
-	height: 310px;
 	padding-top: 62px;
 	display: flex;
 	justify-content: space-between;
@@ -359,11 +346,11 @@ html {
 }
 
 .email-icon {
-	background-image: url('/shelter/images/icon-email.svg');
+	background-image: url('/shelter/main/images/icon-email.svg');
 }
 
 .phone-icon {
-	background-image: url('/shelter/images/icon-phone.svg');
+	background-image: url('/shelter/main/images/icon-phone.svg');
 }
 
 .contact-text {
@@ -394,7 +381,7 @@ html {
 .location-image2 {
 	width: 22px;
 	height: 32px;
-	background-image: url('/shelter/images/icon-marker.png');
+	background-image: url('/shelter/main/images/icon-marker.png');
 	margin-right: 50px;
 }
 
@@ -415,6 +402,6 @@ html {
 .footer-logo {
 	width: 300px;
 	height: 310px;
-	background-image: url('/shelter/images/footer-puppy.png');
+	background-image: url('/shelter/main/images/footer-puppy.png');
 	position: relative;
 }
