@@ -270,7 +270,6 @@ html {
 
 .footer-container {
 	width: 1200px;
-	height: 350px;
 	background-image: url('/shelter/images/footer-background.png');
 	overflow: hidden;
 }
@@ -294,7 +293,7 @@ html {
 	font-family: Georgia;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 35px;
+	font-size: 20px;
 	line-height: 130%;
 	letter-spacing: 0.06em;
 	color: #ffffff;
@@ -311,7 +310,7 @@ html {
 .phone-icon {
 	width: 40px;
 	height: 32px;
-	margin-right: 20px;
+	margin-left: 40px;
 }
 
 .email-icon {
@@ -373,5 +372,4 @@ html {
 	height: 310px;
 	background-image: url('/shelter/images/footer-puppy.png');
 	position: relative;
-	bottom: 20px;
 }
