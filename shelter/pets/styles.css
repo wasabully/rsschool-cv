@@ -11,7 +11,8 @@ html {
 }
 
 .container {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -20,7 +21,8 @@ html {
 }
 
 .header {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	height: 60px;
 	margin: 0 auto;
 	display: flex;
@@ -201,7 +203,8 @@ html {
 .footer-container {
 	background-image: url('/shelter/main/images/footer-background.png');
 	overflow: hidden;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 }
 
 .footer-inner {
