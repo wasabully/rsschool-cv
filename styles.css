@@ -200,29 +200,24 @@ html {
 .friend-card button:hover {
 	background-color: rgba(241, 205, 179, 0.2);
 }
-
 .arrow-btn {
-	border: none;
-	cursor: pointer;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 .left-arrow {
-	left: -30px;
-	background-image: url('/shelter/images/button_arrow.png');
-	width: 40px;
-	height: 40px;
-	background-size: cover;
+	left: -30px; /* или другое значение для позиционирования */
 }
 
 .right-arrow {
-	right: -30px;
-	background-image: url('/shelter/images/right-arrow.png');
-	width: 40px;
+	right: -30px; /* или другое значение для позиционирования */
+}
+
+.arrow-btn img {
+	width: 40px; /* Указать размеры иконки */
 	height: 40px;
-	background-size: cover;
 }
 
 .rest-btn {
