@@ -13,7 +13,8 @@ body {
 }
 
 .main {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,7 +74,8 @@ body {
 }
 
 .container {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -82,6 +84,7 @@ body {
 
 .content {
 	max-width: 50%;
+	box-sizing: border-box;
 }
 
 .content h2 {
@@ -122,7 +125,8 @@ body {
 }
 
 .additional-section {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 20px auto;
 }
 
@@ -151,12 +155,15 @@ body {
 }
 
 .friends-section {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 40px auto;
 	text-align: center;
 }
 
 .friends-container {
+	width: 100%;
+	max-width: 1280px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -231,13 +238,15 @@ body {
 }
 
 .help-section {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 40px auto;
 	text-align: center;
 }
 
 .help-container {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -259,11 +268,13 @@ body {
 	font-size: 14px;
 }
 .before {
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	background-color: rgb(237, 232, 232);
 }
 .before-section {
-	width: 1200px;
+	width: 100%;
+	max-width: 1280px;
 }
 
 .before-content {
@@ -291,6 +302,8 @@ body {
 }
 
 .footer-container {
+	width: 100%;
+	max-width: 1280px;
 	background-image: url('/shelter/main/images/footer-background.png');
 	overflow: hidden;
 }
