@@ -1,5 +1,9 @@
 ## 👋🏼 Hi! I'm Demchenko Danil
 
+## About Me
+
+I am a Frontend developer with hands-on experience in developing high-quality web applications. I am proficient in key technology stacks, including React, TypeScript, and Redux, with which I create user interfaces.
+
 ## Contact Information
 
 - [Telegram](https://t.me/wasabully)
