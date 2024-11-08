@@ -1,6 +1,6 @@
 ## 👋🏼 Hi! I'm Demchenko Danil
 
-![avatar-me](avatar-me.jpeg)
+<img src="avatar-me.jpeg" alt="avatar-me" width="200" height="200">
 
 ## About Me
 
