@@ -1,0 +1,6 @@
+@use "../utils/vars";
+
+.container {
+  width: vars.$container-width;
+  margin: 0 auto;
+}

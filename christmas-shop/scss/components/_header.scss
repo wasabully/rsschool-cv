@@ -1,0 +1,63 @@
+@use "../utils/vars";
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  
+
+  .head {
+    max-width:  vars.$container-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } 
+
+  .branding {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: vars.$logo-size;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .site-name {
+      font-family: vars.$font-family;
+      font-weight: 600;
+      font-size: vars.$font-size;
+      color: vars.$primary-color;
+      letter-spacing: vars.$letter-spacing;
+      text-transform: uppercase;
+    }
+  }
+
+  nav {
+    .nav-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .nav-item {
+        margin-left: 20px;
+
+        .nav-link {
+          font-family: vars.$font-family;
+          font-weight: 600;
+          font-size: vars.$font-size;
+          color: vars.$primary-color;
+          letter-spacing: vars.$letter-spacing;
+          text-decoration: none;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: vars.$hover-color;
+          }
+        }
+      }
+    }
+  }
+}
