@@ -1,0 +1,23 @@
+@use '../utils/var' as *;
+.about-section {
+	background-color: $color-primary;
+	display: flex;
+	flex-direction: row;
+	gap: 20px 0px;
+}
+
+.about-container {
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgb(253, 244, 244);
+}
+
+.text {
+	position: relative;
+	z-index: 2;
+}
+
+.ab-img {
+	z-index: 1;
+}
