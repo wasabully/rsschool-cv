@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-  <header>
-    <div class="head">
-      <div class="branding">
-        <img class="logo" src="./images/Vector.png" alt="logo">
-        <span class="site-name">THE GIFTS</span>
-      </div>
-      <nav>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="./gifts.html" class="nav-link">GIFTS</a></li>
-          <li class="nav-item"><a href="./about.html" class="nav-link">ABOUT</a></li>
-          <li class="nav-item"><a href="./best.html" class="nav-link">BEST</a></li>
-          <li class="nav-item"><a href="./contacts.html" class="nav-link">CONTACTS</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  
-  
-
-  <main class="container">
-    <section class="hero-section">
-      <div class="hero-content">
-        <img src="center-image.jpg" alt="Central Image" class="hero-image" />
-        <button class="hero-button">Click Me</button>
-      </div>
-    </section>
-  </main>
-  
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/sass/main.css" />
+		<title>Christmas-shop</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Allura&family=Oswald:wght@200..700&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="header">
+					<div class="logo">
+						<img src="./src/img/logo/logo.png" alt="logo" />
+						<a href="#gifts" class="action-small">The Gifts</a>
+					</div>
+					<nav class="header-nav">
+						<ul class="header-nav-cont">
+							<li class="header-item">
+								<a href="#gifts" class="link-item action-small">gifts</a>
+							</li>
+							<li class="header-item">
+								<a href="#about" class="link-item action-small">about</a>
+							</li>
+							<li class="header-item">
+								<a href="#best" class="link-item action-small">best</a>
+							</li>
+							<li class="header-item">
+								<a href="#contacts" class="link-item action-small">contacts</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<section class="hero-section">
+				<img src="./src/img/hero/bg-snow.png" alt="" class="bg-snow" />
+				<img src="./src/img/hero/bg-ball.png" alt="bg-ball" class="bg-ball" />
+				<div class="hero-container">
+					<div class="caption">Merry Christmas</div>
+					<h1>GIFT YOURSELF THE MAGIC OF NEW POSSIBILITIES</h1>
+					<div class="btn">
+						<a href="" class="link">Explore Magical Gifts</a>
+					</div>
+					<div class="caption">and Happy New Year</div>
+				</div>
+			</section>
+	</body>
 </html>
